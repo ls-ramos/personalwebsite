@@ -26,6 +26,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@formatjs/intl-localematcher", "npm:0.2.32"],\
+          ["@types/negotiator", "npm:0.6.1"],\
           ["@types/node", "npm:20.11.20"],\
           ["@types/react", "npm:18.2.58"],\
           ["@types/react-dom", "npm:18.2.19"],\
@@ -33,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@vercel/speed-insights", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:1.0.10"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-next", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:14.1.0"],\
+          ["negotiator", "npm:0.6.3"],\
           ["next", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:14.1.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:18.2.0"],\
@@ -115,6 +118,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@eslint-js-npm-8.56.0-b1de08cbff-10c0.zip/node_modules/@eslint/js/",\
         "packageDependencies": [\
           ["@eslint/js", "npm:8.56.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formatjs/intl-localematcher", [\
+      ["npm:0.2.32", {\
+        "packageLocation": "../../../.yarn/berry/cache/@formatjs-intl-localematcher-npm-0.2.32-1117c79148-10c0.zip/node_modules/@formatjs/intl-localematcher/",\
+        "packageDependencies": [\
+          ["@formatjs/intl-localematcher", "npm:0.2.32"],\
+          ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -337,6 +350,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@types-json5-npm-0.0.29-f63a7916bd-10c0.zip/node_modules/@types/json5/",\
         "packageDependencies": [\
           ["@types/json5", "npm:0.0.29"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/negotiator", [\
+      ["npm:0.6.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-negotiator-npm-0.6.1-bd102330ab-10c0.zip/node_modules/@types/negotiator/",\
+        "packageDependencies": [\
+          ["@types/negotiator", "npm:0.6.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2662,6 +2684,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["negotiator", [\
+      ["npm:0.6.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/negotiator-npm-0.6.3-9d50e36171-10c0.zip/node_modules/negotiator/",\
+        "packageDependencies": [\
+          ["negotiator", "npm:0.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["next", [\
       ["npm:14.1.0", {\
         "packageLocation": "../../../.yarn/berry/cache/next-npm-14.1.0-a62036d298-10c0.zip/node_modules/next/",\
@@ -2929,6 +2960,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["personalwebsite", "workspace:."],\
+          ["@formatjs/intl-localematcher", "npm:0.2.32"],\
+          ["@types/negotiator", "npm:0.6.1"],\
           ["@types/node", "npm:20.11.20"],\
           ["@types/react", "npm:18.2.58"],\
           ["@types/react-dom", "npm:18.2.19"],\
@@ -2936,6 +2969,7 @@ const RAW_RUNTIME_STATE =
           ["@vercel/speed-insights", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:1.0.10"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-next", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:14.1.0"],\
+          ["negotiator", "npm:0.6.3"],\
           ["next", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:14.1.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:41176f29ccf1258e0a9bc4e0bdd5772d027895713a32cc5358bdbc2c1ae0b82737035e8b99fd3f9c48a4e322aac3cb5c891ec24e51703d712de4c9f162597aa2#npm:18.2.0"],\
