@@ -1,0 +1,18 @@
+############################
+# Next.js
+############################
+
+/.next/
+/out/
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+
+# IDE
+.vscode
