@@ -8,5 +8,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "yarn workspaces foreach -Api run dev",
+    "build": "yarn workspaces foreach -Api run build",
+    "start": "yarn workspaces foreach -Api run start",
+    "lint": "yarn workspaces foreach -Api run lint"
+  },
   "packageManager": "yarn@4.3.1"
 }
